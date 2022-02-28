@@ -1,0 +1,55 @@
+<html>
+
+	<head>
+
+		<title>PONG</title>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		
+		<style>
+			
+			body {
+				background-color: grey;
+				display: flex;
+				justify-content: center;
+			}
+			
+			table {
+				position: fixed;
+				top:0;
+				width: 200px;
+				height: 30px;
+			}
+			
+			table, td, th {
+				border: 1px solid #bfbfbf;
+				text-align: center;
+				background-color: #343232;
+				color: #bfbfbf;
+			}
+		
+		</style>
+
+	</head>
+	
+	<body>
+		
+		<table>
+			<tr>
+				<th colspan="2">Scoreboard</th>
+			</tr>
+			<tr>
+				<td>Player 1</td>
+				<td>Player 2</td>
+			</tr>
+			<tr>
+				<td id="score1">0</td>
+				<td id="score2">0</td>
+			</tr>
+		</table>	
+		
+		<script type="text/javascript" src="game.js"></script>
+
+	</body>
+
+</html>
